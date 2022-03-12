@@ -1,15 +1,9 @@
 class Script(object):
-    START_TXT = """Hello {},
+    START_TXT = """<b>ഹായ് {},
 
-My name is <a href=https://t.me/{}>{}</a>!
+ എന്നതാ വിശേഷം.. വീഡിയോ വേണോ തെരാലോ </b>"""
 
-<b>I can provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me :)
-
-Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
-
-    HELP_TXT = """Hey {}
-
-<b>Here Is The Help For My Commands.</b>"""
+    HELP_TXT = """ഹേയ്... """
 
     ABOUT_TXT = """<b>➥ My name: {}
 ➥ Creator: <a href='https://t.me/zautekm'>Zaute Km</a>
@@ -19,24 +13,12 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 ➥ Bot Server: <a href='https://heroku.com'>Heroku</a>
 ➥ Build Status: v2.0.1 [ Beta ]"""
 
-    SOURCE_TXT = """<b>Source:</b>
-IMDb is a Open source project.
-Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 👈</a>
-
-<b>DEVS:</b>
-- <a href='https://t.me/josprojects'>Jos Projects</a>
-
-<b>SUPPORT GROUP</b>
-- <a href='https://t.me/+y53tWFUw6Q43NzE9'>Jos Movie Club</a>"""
+    SOURCE_TXT = """<b>Source: none</b>
+"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
-
-<b>NOTE:</b>
-1. IMDb should have admin privillage.
-2. Only admins can add filters in a chat.
-3. Alert buttons have a limit of 64 characters.
+.
 
 <b>Commands and Usage:</b>
 • /filter - add a filter in chat.
@@ -44,17 +26,9 @@ Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 
 • /del - delete a specific filter in chat.
 • /delall - delete the whole filters in a chat (chat owner only)."""
 
-    BUTTON_TXT = """Help: <b>Buttons</b>
+    BUTTON_TXT = """Help: 
 
-- tgmoviebot support both url and alert inline buttons.
 
-<b>NOTE:</b>
-1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. IMDb supports buttons with any telegram media type.
-3. Buttons should be properly parsed as markdown format.
-
-<b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/josprojects)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
